@@ -1,0 +1,56 @@
+[
+  {
+    "id": "akshaya-patra",
+    "name": "The Akshaya Patra Foundation",
+    "city": "Bengaluru",
+    "focus": "Hunger Relief",
+    "phone": "+91-80-3014-3400",
+    "email": "info@akshayapatra.org",
+    "website": "https://www.akshayapatra.org"
+  },
+  {
+    "id": "goonj",
+    "name": "Goonj",
+    "city": "New Delhi",
+    "focus": "Environment",
+    "phone": "+91-11-41401216",
+    "email": "mail@goonj.org",
+    "website": "https://goonj.org"
+  },
+  {
+    "id": "cry",
+    "name": "Child Rights and You (CRY)",
+    "city": "Mumbai",
+    "focus": "Children",
+    "phone": "+91-22-23096845",
+    "email": "support@cry.org",
+    "website": "https://www.cry.org"
+  },
+  {
+    "id": "pratham",
+    "name": "Pratham Education Foundation",
+    "city": "Mumbai",
+    "focus": "Education",
+    "phone": "+91-22-6114-7500",
+    "email": "info@pratham.org",
+    "website": "https://www.pratham.org"
+  },
+  {
+    "id": "helpage",
+    "name": "HelpAge India",
+    "city": "New Delhi",
+    "focus": "Seniors",
+    "phone": "+91-11-41688955",
+    "email": "headoffice@helpageindia.org",
+    "website": "https://www.helpageindia.org"
+  },
+  {
+    "id": "giveindia",
+    "name": "GiveIndia",
+    "city": "Bengaluru",
+    "focus": "Healthcare",
+    "phone": "+91-80-6749-3333",
+    "email": "info@giveindia.org",
+    "website": "https://www.giveindia.org"
+  }
+]

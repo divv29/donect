@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DONECT — Donate</title>
+<link rel="stylesheet" href="assets/style.css">
+<script defer src="assets/app.js"></script>
+</head>
+<body>
+
+<div class="nav">
+  <div class="nav-inner container">
+    <a class="brand" href="index.html">
+      <div class="brand-logo">D</div>
+      <div class="brand-title">DONECT</div>
+    </a>
+    <nav class="navlinks"><a class="" href="index.html">Home</a><a class="" href="ngos.html">NGOs</a><a class="active" href="donate.html">Donate</a><a class="" href="marketplace.html">Resale</a><a class="" href="funding.html">Minister Funding</a><a class="" href="team.html">Team</a><a class="" href="contact.html">Contact</a></nav>
+  </div>
+</div>
+
+<section class="container">
+  <h1 class="h1">Donate</h1>
+  <p class="lead">Contribute funds or pledge items. Transactions are simulated for demo and saved in your browser.</p>
+  <div class="grid">
+    <div class="card">
+      <h3>Monetary Donation</h3>
+      <div class="row">
+        <div class="col"><input id="donor-name" class="input" placeholder="Your name"></div>
+        <div class="col">
+          <select id="donation-ngo" class="select"></select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col"><input id="donation-amount" class="input" placeholder="Amount (₹)"></div>
+        <div class="col"><input id="donor-email" class="input" placeholder="Email for receipt"></div>
+      </div>
+      <button class="button primary" id="donate-btn">Donate (Demo)</button>
+      <small class="muted">A mock receipt will be generated.</small>
+      <div id="donation-result" style="margin-top:10px"></div>
+    </div>
+    <div class="card">
+      <h3>Item Donation</h3>
+      <div class="row">
+        <div class="col"><input id="item-name" class="input" placeholder="Item name"></div>
+        <div class="col"><input id="item-condition" class="input" placeholder="Condition (e.g., Like New)"></div>
+      </div>
+      <div class="row">
+        <div class="col"><input id="pickup-city" class="input" placeholder="Pickup city"></div>
+        <div class="col"><select id="item-ngo" class="select"></select></div>
+      </div>
+      <button class="button primary" id="item-btn">Submit Item (Demo)</button>
+      <div id="item-result" style="margin-top:10px"></div>
+    </div>
+  </div>
+</section>
+
+<footer class="container">
+  <div class="row">
+    <div class="col">
+      <strong>DONECT</strong><br>
+      <small class="muted">Connecting donors, NGOs, and circular resale for real impact.</small>
+    </div>
+    <div class="col">
+      <small class="muted">Demo project for academic purposes. NGO data and funding references are illustrative.</small>
+    </div>
+  </div>
+</footer>
+
+</body></html>

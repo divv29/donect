@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DONECT — NGO Directory</title>
+<link rel="stylesheet" href="assets/style.css">
+<script defer src="assets/app.js"></script>
+</head>
+<body>
+
+<div class="nav">
+  <div class="nav-inner container">
+    <a class="brand" href="index.html">
+      <div class="brand-logo">D</div>
+      <div class="brand-title">DONECT</div>
+    </a>
+    <nav class="navlinks"><a class="" href="index.html">Home</a><a class="active" href="ngos.html">NGOs</a><a class="" href="donate.html">Donate</a><a class="" href="marketplace.html">Resale</a><a class="" href="funding.html">Minister Funding</a><a class="" href="team.html">Team</a><a class="" href="contact.html">Contact</a></nav>
+  </div>
+</div>
+
+<section class="container">
+  <h1 class="h1">NGO Directory</h1>
+  <p class="lead">Search and explore verified NGOs. Click a name to see more details.</p>
+  <div class="row" style="margin:10px 0 18px">
+    <input id="ngo-q" class="input col" placeholder="Search by name, city, focus area">
+    <select id="ngo-focus" class="select" style="max-width:240px">
+      <option value="">All focus areas</option>
+      <option>Education</option><option>Hunger Relief</option><option>Children</option><option>Healthcare</option><option>Seniors</option><option>Environment</option>
+    </select>
+  </div>
+  <table class="table" id="ngo-table">
+    <thead><tr><th>Name</th><th>City</th><th>Focus</th><th>Contact</th></tr></thead>
+    <tbody></tbody>
+  </table>
+</section>
+
+<footer class="container">
+  <div class="row">
+    <div class="col">
+      <strong>DONECT</strong><br>
+      <small class="muted">Connecting donors, NGOs, and circular resale for real impact.</small>
+    </div>
+    <div class="col">
+      <small class="muted">Demo project for academic purposes. NGO data and funding references are illustrative.</small>
+    </div>
+  </div>
+</footer>
+
+</body></html>

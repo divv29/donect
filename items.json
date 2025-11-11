@@ -1,0 +1,42 @@
+[
+  {
+    "id": "b001",
+    "title": "NCERT Class 10 Science (Set of 3)",
+    "price": 299,
+    "category": "Books",
+    "ngo": "Pratham Education Foundation",
+    "condition": "Like New"
+  },
+  {
+    "id": "e101",
+    "title": "Android Smartphone (Refurbished)",
+    "price": 3999,
+    "category": "Electronics",
+    "ngo": "GiveIndia",
+    "condition": "Good"
+  },
+  {
+    "id": "f201",
+    "title": "Study Desk (Solid Wood)",
+    "price": 2499,
+    "category": "Furniture",
+    "ngo": "Child Rights and You (CRY)",
+    "condition": "Very Good"
+  },
+  {
+    "id": "c301",
+    "title": "Winter Jacket (Men, L)",
+    "price": 799,
+    "category": "Clothing",
+    "ngo": "Goonj",
+    "condition": "Excellent"
+  },
+  {
+    "id": "h401",
+    "title": "Steel Cookware Set (5pcs)",
+    "price": 1199,
+    "category": "Home",
+    "ngo": "The Akshaya Patra Foundation",
+    "condition": "Good"
+  }
+]
